@@ -1,0 +1,634 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --buttons: rgb(39, 142, 173);
+    --hover: rgb(40, 132, 160);
+}
+
+header {
+    background: rgb(47, 90, 101);
+    background: linear-gradient(90deg, rgba(47, 90, 101, 1) 0%, rgba(15, 22, 41, 0.8267682072829132) 69%);
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px 50px 0px;
+    flex-wrap: wrap;
+}
+
+.navigationBar .navigationP {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigationBar .navigationP a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 4px 15px;
+}
+
+.navigationBar .navigationP a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.navigationBar .navigationP a:hover {
+    background-color: rgb(37, 37, 37);
+    border-radius: 50px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textContainer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 508px;
+    font-size: 18px;
+}
+
+.textContainer1 h1 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.textContainer1 .text1 {
+    color: white;
+    line-height: 30px;
+}
+
+.textContainer1 .text2 {
+    padding-top: 13px;
+    line-height: 20px;
+    color: rgb(172, 172, 172);
+    padding-bottom: 55px;
+}
+
+.text3 a {
+    color: white;
+}
+
+.text3 a:hover {
+    border-radius: 50px;
+    transform: translateY(-30px);
+    box-shadow: 0 15px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--hover);
+}
+
+.text3 p {
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    background-color: var(--buttons);
+    padding: 12px 30px;
+    border-radius: 50px;
+    margin-right: 15px;
+    box-shadow: 0 5px 5px 0 rgb(48, 48, 48);
+}
+
+.link1 {
+    margin-left: 15px;
+}
+
+.link1 img {
+    padding-right: 7px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(233, 228, 223);
+}
+
+.brands img {
+    padding: 10px;
+}
+
+.brands img:hover {
+    border-radius: 50px;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.infoBox {
+    width: 350px;
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.infoBox h2 {
+    margin-bottom: 15px;
+}
+
+.infoBox img {
+    margin-bottom: 20px;
+}
+
+.infoBox p {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.infoBox a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--botones);
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 20%;
+}
+
+.infoBox a:hover {
+    border-radius: 30px;
+    transform: translateY(-30px);
+    box-shadow: 0 18px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--hover);
+}
+
+.images:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(340deg);
+}
+
+.phone:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.contenedor1 {
+    overflow: hidden;
+}
+
+.infoImage:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    Flex-wrap: wrap;
+}
+
+.txtImages {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-bottom: 1.3%;
+    text-align: center;
+    font-size: 19px;
+}
+
+.txtImages img {
+    margin-right: 0.5%;
+}
+
+#img_border {
+    max-width: 270px;
+    border: 4px solid white;
+    box-shadow: 0px 0px 5px rgb(45, 54, 58);
+    margin: 10px;
+}
+
+#img_border:hover {
+    border: 4px solid rgb(255, 255, 255);
+    transform: translateY(-12px);
+    box-shadow: 0 0px 5px rgb(45, 54, 58);
+}
+
+.internalBox {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.projectsIcon {
+    margin-left: 6.5%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: flex;
+}
+
+.projectsIcon p {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.icons {
+    margin-left: 0.3%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: flex;
+}
+
+.icons p {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.rightContainer img {
+    display: flex;
+}
+
+.images {
+    border: 4px solid white;
+    box-shadow: 0px 0px 5px rgb(45, 54, 58);
+}
+
+.Twitter {
+    display: flex;
+}
+
+.icons {
+    margin-right: 41%;
+}
+
+.leftContainer .images {
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.leftContainer .txtContainer {
+    width: 58%;
+    margin-left: 2.4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftContainer .txtContainer h3 {
+    font-size: 19px;
+    margin-bottom: 2%;
+    color: rgb(27, 27, 27);
+}
+
+.leftContainer .txtContainer p {
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.leftContainer .txtContainer p a {
+    text-decoration: none;
+    color: var(--botones);
+    padding: 5px;
+}
+
+.leftContainer .txtContainer p a:hover {
+    border-radius: 50px;
+    transform: translateY(-30px);
+    box-shadow: 0 15px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--hover);
+    color: white;
+}
+
+.leftContainer .txtContainer .dateHour {
+    font-size: 15px;
+    color: rgb(116, 115, 115);
+}
+
+.olderEntries {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15%;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--botones);
+}
+
+#organization {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.externalBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos {
+    display: flex;
+}
+
+.rightContainer p img {
+    margin-right: 1%;
+}
+
+.textRightContainer {
+    line-height: 30px;
+}
+
+.rightContainer .textRightContainer .dateHour {
+    font-size: 15px;
+    color: rgb(116, 115, 115);
+    margin-bottom: 3%;
+}
+
+.rightContainer .textRightContainer .text {
+    font-size: 17px;
+}
+
+.rightContainer .textRightContainer .text a {
+    text-decoration: none;
+    color: var(--botones);
+}
+
+.follow {
+    margin-top: 7%;
+    text-decoration: none;
+    color: var(--botones);
+    font-size: 16px;
+}
+
+hr {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(116, 115, 115);
+}
+
+
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.socialIcon:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #5e98e4;
+    -webkit-box-shadow: 0px 0px 15px 15px #5e98e4;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/* Responsive Part */
+@media screen and (max-width: 1024px) {
+
+    .navigationBar .navigationP a {
+        font-size: 14px;
+    }
+
+    .textContainer1 h1 {
+        font-size: 40px;
+    }
+
+    .textContainer1 .text1 {
+        font-size: 15px;
+    }
+
+    .textContainer1 .text2 {
+        font-size: 15px;
+    }
+
+    .textContainer1 .text3 {
+        font-size: 15px;
+    }
+
+    .brands img {
+        width: 48px;
+    }
+
+    .infoBox img {
+        width: 30%;
+    }
+
+    .infoBox h2 {
+        font-size: 20px;
+    }
+
+    .infoBox p {
+        font-size: 14px;
+    }
+
+    .infoBox {
+        width: 272px;
+    }
+
+    .projectsIcon img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .projectsIcon {
+        font-size: 20px;
+        margin-left: 3%;
+        margin-top: 30px;
+    }
+
+    .container3 img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .internalBox {
+        flex-wrap: wrap;
+        width: 78%;
+    }
+
+    .icons {
+
+        font-size: 20px;
+        margin-left: 0.2%;
+
+    }
+
+    .icons img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .externalBox {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .leftContainer .images {
+        width: 180px;
+        height: 120px;
+    }
+
+    .leftContainer .txtContainer h3 {
+        font-size: 18px;
+    }
+
+    .leftContainer .txtContainer p {
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    .leftContainer .txtContainer .dateHour {
+        font-size: 13px;
+    }
+
+    .olderEntries {
+        margin-bottom: 70px;
+    }
+
+    .rightContainer .textRightContainer .dateHour {
+        font-size: 13px;
+    }
+
+    .rightContainer .textRightContainer .text {
+        font-size: 15px;
+    }
+
+    hr {
+        margin-top: 50px;
+    }
+
+    footer {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+    .phone {
+        width: 300px;
+    }
+
+    .textContainer1 {
+        text-align: right;
+        margin-right: 2%;
+    }
+
+    .textContainer1 h1 {
+        font-size: 33px;
+    }
+
+    .textContainer1 .text1 {
+        font-size: 14px;
+    }
+
+    .textContainer1 .text2 {
+        font-size: 14px;
+    }
+
+    .textContainer1 .text3 {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .phone {
+        width: 250px;
+    }
+
+    .textContainer1 {
+        text-align: right;
+        margin-right: 2%;
+    }
+
+    .textContainer1 h1 {
+        font-size: 30px;
+    }
+
+    .textContainer1 .text1 {
+        font-size: 13px;
+
+    }
+
+    .textContainer1 .text2 {
+        font-size: 13px;
+        padding-bottom: 5%;
+    }
+
+    .textContainer1 .text3 {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 632px) {
+    .phone {
+        display: none;
+    }
+
+    .textContainer1 .text2 {
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+
+    .textContainer1 .text3 {
+        font-size: 12px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navigationBar img {
+        padding-bottom: 20px;
+    }
+
+    .navigationBar .navigationP a {
+        font-size: 13px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .brands img {
+        width: 34px;
+    }
+
+    .leftContainer #organization img {
+        display: none;
+    }
+
+    .leftContainer .txtContainer {
+        width: 100%;
+    }
+
+}
